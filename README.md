@@ -28,13 +28,15 @@ Digunakan Volcano Plot untuk memetakan distribusi gen berdasarkan signifikansi s
 e. Analisis Fungsional dan Jalur (Interpretasi Biologis)
 Dilakukan Gene Ontology (GO) Enrichment menggunakan alat g:Profiler untuk mengidentifikasi kategori Biological Process (BP), Molecular Function (MF), dan Cellular Component (CC), khususnya terkait ritme sirkadian dan siklus sel. Selain itu, dilakukan KEGG Pathway Mapping untuk memetakan gen yang signifikan ke dalam jalur metabolisme dan persinyalan seperti Circadian Rhythm, Cell Cycle, dan PPAR Signaling Pathway untuk memahami mekanisme aksi Irbesartan. 
 5. Hasil dan Visualisasi (BLM SELESAI)
-a. Daftar 20 Gen dengan Ekspresi Diferensial Paling Signifikan
+a. Daftar 10 Gen dengan Ekspresi Diferensial Paling Signifikan
+<img width="852" height="258" alt="Screenshot 2026-03-03 121442" src="https://github.com/user-attachments/assets/177dede0-e949-465b-bcb2-ec0e912d582e" />
+
 b. Boxplot
 c. UMAP
 d. Volcano Plot
 e. Heatmap
-6. Analisis Gene Ontology (GO) & KEGG (BLM SELESAI)
+7. Analisis Gene Ontology (GO) & KEGG (BLM SELESAI)
 GO: Fokus pada proses metabolisme sirkadian dan pembelahan sel.
 KEGG: Jalur persinyalan *Cell Cycle* dan *PPAR Signaling Pathway* (sesuai temuan di paper).
-7. Kesimpulan (BLM SELESAI)
+8. Kesimpulan (BLM SELESAI)
 Irbesartan tidak hanya menurunkan tekanan darah tetapi juga memperbaiki jam biologis seluler di ginjal yang terganggu akibat kondisi diabetes.
