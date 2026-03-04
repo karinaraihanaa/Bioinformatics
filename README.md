@@ -42,12 +42,12 @@ d. UMAP
 Ditunjukkan pemisahan kelompok sampel secara jelas berdasarkan profil ekspresi gen globalnya. Pemisahan kelompok perlakuan Irbesartan dari kelompok model DKD membuktikan bahwa intervensi obat ini memberikan perubahan genetik yang signifikan dan konsisten, yang mendasari perbaikan histopatologis pada ginjal tikus db/db.
 7. Analisis Gene Ontology (GO) & KEGG
 <img width="1907" height="943" alt="gProfiler_mmusculus_2026-03-04_01-14-47" src="https://github.com/user-attachments/assets/cc8e1077-1a6f-468a-8f39-c8b4e5f463f8" />
-
 <img width="410" height="91" alt="Screenshot 2026-03-04 082335" src="https://github.com/user-attachments/assets/dac03053-fee8-449f-9eca-80665d8c5ba3" />
 <img width="412" height="93" alt="Screenshot 2026-03-04 082314" src="https://github.com/user-attachments/assets/bb4f2ba9-6b76-4e01-a4cb-30fd0ba345b7" />
 <img width="407" height="92" alt="Screenshot 2026-03-04 082256" src="https://github.com/user-attachments/assets/be46389b-57f5-4f59-a3ba-5ad9f5b22c26" />
-<img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/245b7bdf-fe01-47dc-ab96-353980fbc18d" />
-<img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/3f57e038-8753-411e-90c9-19fdd51924bd" />
+<img width="10" height="10" alt="circadian rythm" src="https://github.com/user-attachments/assets/2a293f6f-654d-409e-a581-8210a85f9757" />
+<img width="10" height="10" alt="p53 signaling pathway" src="https://github.com/user-attachments/assets/25b82c07-c67c-43d4-b505-4d9491d286cc" />
+
 
 GO: Fokus pada proses metabolisme sirkadian dan pembelahan sel.
 KEGG: Jalur persinyalan *Cell Cycle* dan *PPAR Signaling Pathway* (sesuai temuan di paper).
