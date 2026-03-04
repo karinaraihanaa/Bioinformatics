@@ -36,6 +36,8 @@ b. Volcano Plot
 Konsentrasi titik-titik di sisi kanan atas menunjukkan adanya respons molekuler yang masif (ekspresi di atas 10-9- kali lipat) dari gen-gen yang teraktivasi oleh terapi Irbesartan, membuktikan bahwa obat ini bekerja secara efektif pada tingkat transkriptomik untuk memperbaiki kerusakan ginjal diabetik.
 c. Mean-Difference Plot
 <img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/91f76381-5ab2-45d8-bfeb-e5c1b10fe787" />
+<br>
+
 Pola gen signifikan di atas garis nol mengonfirmasi bahwa efek utama Irbesartan dalam penelitian ini adalah menginduksi kembali ekspresi gen-gen fungsional yang biasanya menurun pada kondisi penyakit ginjal diabetik.
 d. UMAP
 <img width="440" height="360" alt="image" src="https://github.com/user-attachments/assets/911d41ec-9e7e-4a3b-9b64-477375255572" />
@@ -45,6 +47,7 @@ Ditunjukkan pemisahan kelompok sampel secara jelas berdasarkan profil ekspresi g
 <img width="410" height="91" alt="Screenshot 2026-03-04 082335" src="https://github.com/user-attachments/assets/dac03053-fee8-449f-9eca-80665d8c5ba3" />
 <img width="412" height="93" alt="Screenshot 2026-03-04 082314" src="https://github.com/user-attachments/assets/bb4f2ba9-6b76-4e01-a4cb-30fd0ba345b7" />
 <img width="407" height="92" alt="Screenshot 2026-03-04 082256" src="https://github.com/user-attachments/assets/be46389b-57f5-4f59-a3ba-5ad9f5b22c26" />
+
 <img width="10" height="10" alt="circadian rythm" src="https://github.com/user-attachments/assets/2a293f6f-654d-409e-a581-8210a85f9757" />
 <img width="10" height="10" alt="p53 signaling pathway" src="https://github.com/user-attachments/assets/25b82c07-c67c-43d4-b505-4d9491d286cc" />
 
