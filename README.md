@@ -47,8 +47,6 @@ Deskripsi: Proyek ini bertujuan untuk mengeksplorasi perubahan ekspresi gen pada
 <br> <img width="407" height="92" alt="Screenshot 2026-03-04 082256" src="https://github.com/user-attachments/assets/be46389b-57f5-4f59-a3ba-5ad9f5b22c26" />
 <br> <img width="381" height="397" alt="Screenshot 2026-03-04 091337" src="https://github.com/user-attachments/assets/bb3006da-7103-499e-baae-af384f0e6039" />
 <br> <img width="648" height="371" alt="Screenshot 2026-03-04 091540" src="https://github.com/user-attachments/assets/ae83b755-cad3-4818-b4a3-92e4399d4ea8" />
-
-<br> GO: Fokus pada proses metabolisme sirkadian dan pembelahan sel.
-<br> KEGG: Jalur persinyalan *Cell Cycle* dan *PPAR Signaling Pathway* (sesuai temuan di paper).
-9. Kesimpulan (BLM SELESAI)
-<br> Irbesartan tidak hanya menurunkan tekanan darah tetapi juga memperbaiki jam biologis seluler di ginjal yang terganggu akibat kondisi diabetes.
+<br> Analisis GO menunjukkan bahwa gen-gen yang terekspresi secara diferensial paling signifikan terkonsentrasi pada proses biologis (GO:BP) ritme sirkadian dan proses ritmik. Pada kategori GO:CC dan GO:MF, ditemukan peningkatan pada komponen nukleoplasma serta aktivitas pengikatan kinase dan E-box, yang mendukung peran gen tersebut dalam regulasi transkripsi seluler. Sementara itu, hasil KEGG Pathway mengungkap keterlibatan jalur persinyalan p53 dan siklus sel, dengan intervensi Irbesartan memicu aktivasi gen target seperti p21 yang berperan dalam menghentikan siklus sel sementara. Irbesartan bekerja dengan memperbaiki kerusakan ginjal diabetik melalui pemulihan jam biologis seluler dan meregulasi kembali pembelahan sel yang sebelumnya terganggu.
+9. Kesimpulan
+<br> Pemberian Irbesartan meregulasi profil transkriptomik pada jaringan ginjal diabetik dengan memulihkan ekspresi gen-gen fungsional yang sebelumnya mengalami penurunan. Intervensi Irbesartan menormalisasi jam biologis melalui aktivasi ritme sirkadian dan proses ritmik serta mengatur jalur persinyalan siklus sel untuk menghambat progresivitas kerusakan ginjal.
