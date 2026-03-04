@@ -1,11 +1,11 @@
 CAPSTONE PROJECT_WEEK 4
 1. Judul dan Deskripsi Proyek
-Judul: Analisis Transkriptomik Efek Irbesartan terhadap Perbaikan Diabetic Kidney Disease (DKD).
+<br> Judul: Analisis Transkriptomik Efek Irbesartan terhadap Perbaikan Diabetic Kidney Disease (DKD).
 Deskripsi: Proyek ini bertujuan untuk mengeksplorasi perubahan ekspresi gen pada model ginjal diabetik dan bagaimana pemberian obat Irbesartan dapat memulihkan fungsi sel melalui regulasi ritme sirkadian dan jalur siklus sel.
 2. Problem Statement (Rumusan Masalah)
-Penyakit Ginjal Diabetik (Diabetic Kidney Disease/DKD) merupakan komplikasi mikrovaskular utama pada penderita diabetes melitus dan menjadi penyebab utama gagal ginjal stadium akhir di seluruh dunia. Meskipun terapi standar seperti penggunaan Angiotensin II Receptor Blockers (ARB) telah lama diterapkan untuk mengontrol proteinuria dan tekanan darah, pemahaman mengenai mekanisme perbaikan fungsional pada tingkat molekuler masih terbatas. Kondisi hiperglisemia kronis pada DKD diketahui dapat mengganggu ritme sirkadian seluler—jam biologis internal yang mengatur metabolisme dan homeostasis sel. Gangguan pada ritme sirkadian ini memicu disregulasi siklus sel yang mempercepat kerusakan jaringan ginjal. Oleh karena itu, terdapat kebutuhan mendesak untuk:
-a. Mengidentifikasi profil ekspresi gen (Differentially Expressed Genes/DEG) yang mengalami gangguan pada kondisi DKD.
-b. Menganalisis bagaimana intervensi obat, dalam hal ini Irbesartan, mampu memulihkan jalur ritme sirkadian dan regulasi siklus sel.
+<br> Penyakit Ginjal Diabetik (Diabetic Kidney Disease/DKD) merupakan komplikasi mikrovaskular utama pada penderita diabetes melitus dan menjadi penyebab utama gagal ginjal stadium akhir di seluruh dunia. Meskipun terapi standar seperti penggunaan Angiotensin II Receptor Blockers (ARB) telah lama diterapkan untuk mengontrol proteinuria dan tekanan darah, pemahaman mengenai mekanisme perbaikan fungsional pada tingkat molekuler masih terbatas. Kondisi hiperglisemia kronis pada DKD diketahui dapat mengganggu ritme sirkadian seluler—jam biologis internal yang mengatur metabolisme dan homeostasis sel. Gangguan pada ritme sirkadian ini memicu disregulasi siklus sel yang mempercepat kerusakan jaringan ginjal. Oleh karena itu, terdapat kebutuhan mendesak untuk:
+<br> a. Mengidentifikasi profil ekspresi gen (Differentially Expressed Genes/DEG) yang mengalami gangguan pada kondisi DKD.
+<br> b. Menganalisis bagaimana intervensi obat, dalam hal ini Irbesartan, mampu memulihkan jalur ritme sirkadian dan regulasi siklus sel.
 c. Memvalidasi secara bioinformatika apakah pemulihan gen-gen sirkadian berkorelasi dengan perbaikan kerusakan histopatologis pada ginjal.
 3. Dataset dan Metadata
 Model Hewan: Tikus db/db (model diabetes) dan tikus db/m (kontrol normal).
