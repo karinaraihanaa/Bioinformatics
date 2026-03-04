@@ -45,8 +45,8 @@ Deskripsi: Proyek ini bertujuan untuk mengeksplorasi perubahan ekspresi gen pada
 <br> <img width="410" height="91" alt="Screenshot 2026-03-04 082335" src="https://github.com/user-attachments/assets/dac03053-fee8-449f-9eca-80665d8c5ba3" />
 <br> <img width="412" height="93" alt="Screenshot 2026-03-04 082314" src="https://github.com/user-attachments/assets/bb4f2ba9-6b76-4e01-a4cb-30fd0ba345b7" />
 <br> <img width="407" height="92" alt="Screenshot 2026-03-04 082256" src="https://github.com/user-attachments/assets/be46389b-57f5-4f59-a3ba-5ad9f5b22c26" />
-<br> <img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/9c749745-5f0a-4ff1-9dfc-4e7f8351a6dd" />
-<br> <img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/65c854ac-b0f1-459d-8f6d-e858fd8e128f" />
+<br> <img width="381" height="397" alt="Screenshot 2026-03-04 091337" src="https://github.com/user-attachments/assets/bb3006da-7103-499e-baae-af384f0e6039" />
+<br> <img width="648" height="371" alt="Screenshot 2026-03-04 091540" src="https://github.com/user-attachments/assets/ae83b755-cad3-4818-b4a3-92e4399d4ea8" />
 
 <br> GO: Fokus pada proses metabolisme sirkadian dan pembelahan sel.
 <br> KEGG: Jalur persinyalan *Cell Cycle* dan *PPAR Signaling Pathway* (sesuai temuan di paper).
