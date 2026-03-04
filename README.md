@@ -15,16 +15,16 @@ CAPSTONE PROJECT_WEEK 4
 <br> 3. Kelompok Diabetes + Irbesartan.
 <br> Fokus Data: Profil ekspresi gen dari jaringan korteks ginjal.
 4. Metode Analisis (Workflow)
-<br> Akuisisi Data dan Desain Eksperimen → Pre-processing Data (Cleaning & Exploratory) → Identifikasi DEG → Visualisasi <br> Data Gen Spesifik → Analisis Fungsional dan Jalur (Interpretasi Biologis)
+<br> Akuisisi Data dan Desain Eksperimen → Pre-processing Data (Cleaning & Exploratory) → Identifikasi DEG → Visualisasi Data Gen Spesifik → Analisis Fungsional dan Jalur (Interpretasi Biologis)
 <br> Penjelasan:
 <br> a. Akuisisi Data dan Desain Eksperimen
 <br> Data ekspresi gen diperoleh dari jaringan korteks ginjal tikus melalui teknologi Microarray atau RNA-Seq. Kelompok sampel dibagi menjadi tiga grup utama: kontrol normal (db/m), model DKD (db/db), dan kelompok perlakuan (DKD + Irbesartan).
 <br> b. Pre-processing Data (Cleaning & Exploratory)
-<br> Data mentah diproses menggunakan transformasi log2 untuk menstabilkan varian dan mendekati asumsi model linear. Dilakukan pengecekan distribusi nilai ekspresi menggunakan Boxplot untuk memastikan data telah ternormalisasi dengan baik antar sampel. Selain itu, digunakan UMAP untuk memvisualisasikan pemisahan sampel secara global dan mendeteksi adanya efek batch.
+<br> Data mentah diproses menggunakan transformasi log2 untuk menstabilkan varian dan mendekati asumsi model linear. Dilakukan pengecekan distribusi nilai ekspresi dan hubungan antara log-fold change terhadap rata-rata intensitas log-ekspresi dilakukan menggunakan Mean-Difference (MD) Plot. Selain itu, digunakan UMAP untuk memvisualisasikan pemisahan sampel secara global dan mendeteksi adanya efek batch.
 <br> c. Identifikasi Differentially Expressed Genes (DEG)
 <br> Analisis dilakukan menggunakan paket limma (Linear Models for Microarray Data) di lingkungan RStudio dengan gen diidentifikasi sebagai DEG jika memenuhi ambang batas statistik: 1) Adjusted P-value (FDR) < 0,05 untuk mengontrol penemuan positif palsu dan 2) Log2 Fold Change (log2FC) > 1 (untuk gen up-regulated) atau < -1 (untuk gen down-regulated).
 <br> d. Visualisasi Data Gen Spesifik
-<br> Digunakan Volcano Plot untuk memetakan distribusi gen berdasarkan signifikansi statistik (-log10 P-value) dan besarnya perubahan ekspresi (log2FC) serta Heatmap dengan dilakukan hierarchical clustering pada top 50 gen paling signifikan untuk melihat pola ekspresi yang berbeda antar kelompok perlakuan.
+<br> Digunakan Volcano Plot untuk memetakan distribusi gen berdasarkan signifikansi statistik (-log10 P-value) dan besarnya perubahan ekspresi (log2FC).
 <br> e. Analisis Fungsional dan Jalur (Interpretasi Biologis)
 <br> Dilakukan Gene Ontology (GO) Enrichment menggunakan alat g:Profiler untuk mengidentifikasi kategori Biological Process (BP), Molecular Function (MF), dan Cellular Component (CC), khususnya terkait ritme sirkadian dan siklus sel. Selain itu, dilakukan KEGG Pathway Mapping untuk memetakan gen yang signifikan ke dalam jalur metabolisme dan persinyalan seperti Circadian Rhythm dan Cell Cycle untuk memahami mekanisme aksi Irbesartan. 
 5. Hasil dan Visualisasi
