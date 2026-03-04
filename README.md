@@ -33,7 +33,7 @@ CAPSTONE PROJECT_WEEK 4
 <br> Nilai logFC positif yang tinggi di semua gen mengindikasikan bahwa pemberian Irbesartan memicu peningkatan ekspresi (up-regulation) gen secara signifikan pada jaringan ginjal. Gen-gen ini kemungkinan merupakan gen-gen kunci dalam pemulihan ritme sirkadian dan regulasi siklus sel dari kondisi diabetes. Misalnya, gen dengan ID 14772385 memiliki nilai logFC sebesar 6,5 yang artinya ekspresi meningkat hingga 90,5 kali lipat (2^6,5).
 <br> b. Volcano Plot
 <br> <img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/8d6ff46e-eaf5-45ac-a210-bd3ff877232a" />
-<br> Konsentrasi titik-titik di sisi kanan atas menunjukkan adanya respons molekuler yang masif (ekspresi di atas 10-9- kali lipat) dari gen-gen yang teraktivasi oleh terapi Irbesartan, membuktikan bahwa obat ini bekerja secara efektif pada tingkat transkriptomik untuk memperbaiki kerusakan ginjal diabetik.
+<br> Konsentrasi titik-titik di sisi kanan atas menunjukkan adanya respons molekuler yang masif (ekspresi di atas 10-9 kali lipat) dari gen-gen yang teraktivasi oleh terapi Irbesartan, membuktikan bahwa obat ini bekerja secara efektif pada tingkat transkriptomik untuk memperbaiki kerusakan ginjal diabetik.
 <br> c. Mean-Difference Plot
 <br> <img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/91f76381-5ab2-45d8-bfeb-e5c1b10fe787" />
 <br> Pola gen signifikan di atas garis nol mengonfirmasi bahwa efek utama Irbesartan dalam penelitian ini adalah menginduksi kembali ekspresi gen-gen fungsional yang biasanya menurun pada kondisi penyakit ginjal diabetik.
