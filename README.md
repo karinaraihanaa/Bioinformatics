@@ -27,16 +27,29 @@ d. Visualisasi Data Gen Spesifik
 Digunakan Volcano Plot untuk memetakan distribusi gen berdasarkan signifikansi statistik (-log10 P-value) dan besarnya perubahan ekspresi (log2FC) serta Heatmap dengan dilakukan hierarchical clustering pada top 50 gen paling signifikan untuk melihat pola ekspresi yang berbeda antar kelompok perlakuan.
 e. Analisis Fungsional dan Jalur (Interpretasi Biologis)
 Dilakukan Gene Ontology (GO) Enrichment menggunakan alat g:Profiler untuk mengidentifikasi kategori Biological Process (BP), Molecular Function (MF), dan Cellular Component (CC), khususnya terkait ritme sirkadian dan siklus sel. Selain itu, dilakukan KEGG Pathway Mapping untuk memetakan gen yang signifikan ke dalam jalur metabolisme dan persinyalan seperti Circadian Rhythm, Cell Cycle, dan PPAR Signaling Pathway untuk memahami mekanisme aksi Irbesartan. 
-5. Hasil dan Visualisasi (BLM SELESAI)
+5. Hasil dan Visualisasi
 a. Daftar 10 Gen dengan Ekspresi Diferensial Paling Signifikan
 <img width="852" height="258" alt="Screenshot 2026-03-03 121442" src="https://github.com/user-attachments/assets/177dede0-e949-465b-bcb2-ec0e912d582e" />
+Nilai logFC positif yang tinggi di semua gen mengindikasikan bahwa pemberian Irbesartan memicu peningkatan ekspresi (up-regulation) gen secara signifikan pada jaringan ginjal. Gen-gen ini kemungkinan merupakan gen-gen kunci dalam pemulihan ritme sirkadian dan regulasi siklus sel dari kondisi diabetes. Misalnya, gen dengan ID 14772385 memiliki nilai logFC sebesar 6,5 yang artinya ekspresi meningkat hingga 90,5 kali lipat (2^6,5).
+b. Volcano Plot
+<img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/8d6ff46e-eaf5-45ac-a210-bd3ff877232a" />
+Konsentrasi titik-titik di sisi kanan atas menunjukkan adanya respons molekuler yang masif (ekspresi di atas 10-9- kali lipat) dari gen-gen yang teraktivasi oleh terapi Irbesartan, membuktikan bahwa obat ini bekerja secara efektif pada tingkat transkriptomik untuk memperbaiki kerusakan ginjal diabetik.
+c. Mean-Difference Plot
+<img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/91f76381-5ab2-45d8-bfeb-e5c1b10fe787" />
+Pola gen signifikan di atas garis nol mengonfirmasi bahwa efek utama Irbesartan dalam penelitian ini adalah menginduksi kembali ekspresi gen-gen fungsional yang biasanya menurun pada kondisi penyakit ginjal diabetik.
+d. UMAP
+<img width="440" height="360" alt="image" src="https://github.com/user-attachments/assets/911d41ec-9e7e-4a3b-9b64-477375255572" />
+Ditunjukkan pemisahan kelompok sampel secara jelas berdasarkan profil ekspresi gen globalnya. Pemisahan kelompok perlakuan Irbesartan dari kelompok model DKD membuktikan bahwa intervensi obat ini memberikan perubahan genetik yang signifikan dan konsisten, yang mendasari perbaikan histopatologis pada ginjal tikus db/db.
+7. Analisis Gene Ontology (GO) & KEGG
+<img width="1907" height="943" alt="gProfiler_mmusculus_2026-03-04_01-14-47" src="https://github.com/user-attachments/assets/cc8e1077-1a6f-468a-8f39-c8b4e5f463f8" />
 
-b. Boxplot
-c. UMAP
-d. Volcano Plot
-e. Heatmap
-7. Analisis Gene Ontology (GO) & KEGG (BLM SELESAI)
+<img width="410" height="91" alt="Screenshot 2026-03-04 082335" src="https://github.com/user-attachments/assets/dac03053-fee8-449f-9eca-80665d8c5ba3" />
+<img width="412" height="93" alt="Screenshot 2026-03-04 082314" src="https://github.com/user-attachments/assets/bb4f2ba9-6b76-4e01-a4cb-30fd0ba345b7" />
+<img width="407" height="92" alt="Screenshot 2026-03-04 082256" src="https://github.com/user-attachments/assets/be46389b-57f5-4f59-a3ba-5ad9f5b22c26" />
+<img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/245b7bdf-fe01-47dc-ab96-353980fbc18d" />
+<img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/3f57e038-8753-411e-90c9-19fdd51924bd" />
+
 GO: Fokus pada proses metabolisme sirkadian dan pembelahan sel.
 KEGG: Jalur persinyalan *Cell Cycle* dan *PPAR Signaling Pathway* (sesuai temuan di paper).
-8. Kesimpulan (BLM SELESAI)
+9. Kesimpulan (BLM SELESAI)
 Irbesartan tidak hanya menurunkan tekanan darah tetapi juga memperbaiki jam biologis seluler di ginjal yang terganggu akibat kondisi diabetes.
